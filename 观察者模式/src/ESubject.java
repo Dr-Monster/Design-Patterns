@@ -19,7 +19,7 @@ public class ESubject implements ISubject {
     @Override
     public void notifyOB() {
         for (IObserver observer : iObList){
-            observer.setResult("OB_Info");
+            observer.setResult("OB_ Info");
         }
     }
 }
