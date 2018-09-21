@@ -11,14 +11,14 @@ public class ESubject implements ISubject {
 
     @Override
     public void detachOB(IObserver iObserver) {
-        if (iObList.contains(iObserver)){
+        if (iObList.contains(iObserver)) {
             iObList.remove(iObserver);
         }
     }
 
     @Override
     public void notifyOB() {
-        for (IObserver observer : iObList){
+        for (IObserver observer : iObList) {
             observer.setResult("OB_ Info");
         }
     }

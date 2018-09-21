@@ -1,7 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        // write your code here
         IFactory factoryA = new FactoryAImpl();
         System.out.println(factoryA.createProduct().toString());
 

@@ -16,7 +16,7 @@ public class FlyCar extends CarImpl {
         flyMove();
     }
 
-    public void flyMove(){
+    public void flyMove() {
         System.out.println("Fly Drive...");
     }
 }

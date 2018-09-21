@@ -5,9 +5,9 @@ import obInterface.IUsb;
 
 public class Adapter implements IPsp {
 
-    private IUsb iUsb ;
+    private IUsb iUsb;
 
-    public Adapter(IUsb iUsb){
+    public Adapter(IUsb iUsb) {
         this.iUsb = iUsb;
     }
 

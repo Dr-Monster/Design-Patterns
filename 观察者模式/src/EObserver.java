@@ -10,10 +10,10 @@ public class EObserver implements IObserver {
         this.name = name;
     }
 
-    public String name ;
+    public String name;
 
-    public EObserver(String name){
-        this.name = name ;
+    public EObserver(String name) {
+        this.name = name;
     }
 
     @Override

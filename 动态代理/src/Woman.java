@@ -1,12 +1,12 @@
 public class Woman implements IPerson {
 
-    public String name ;
+    public String name;
 
-    public int money ;
+    public int money;
 
-    public Woman(String name , int money){
-        this.name = name ;
-        this.money = money ;
+    public Woman(String name, int money) {
+        this.name = name;
+        this.money = money;
     }
 
     @Override

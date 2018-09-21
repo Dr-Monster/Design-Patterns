@@ -1,12 +1,12 @@
-public class Student implements IPerson{
+public class Student implements IPerson {
 
-    public String name ;
+    public String name;
 
-    public int money ;
+    public int money;
 
-    public Student(String name , int money){
-        this.name = name ;
-        this.money = money ;
+    public Student(String name, int money) {
+        this.name = name;
+        this.money = money;
     }
 
 

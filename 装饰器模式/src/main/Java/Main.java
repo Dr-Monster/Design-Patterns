@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Car car =  new Car();
+        Car car = new Car();
 
         System.out.println("增加新的功能：飞行");
         FlyCar flycar = new FlyCar(car);

@@ -14,7 +14,7 @@ public class SwimCar extends CarImpl {
         swimMove();
     }
 
-    public void swimMove(){
+    public void swimMove() {
         System.out.println("Swim Drive...");
     }
 }
